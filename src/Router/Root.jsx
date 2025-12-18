@@ -6,9 +6,15 @@ import { Outlet } from 'react-router'
 function Root() {
   return (
 <>
-    <Navber/>
-    <Outlet/>
-    <Footer/>
+   <div>
+     <Navber/>
+   </div>
+ <div>
+       <Outlet/>
+ </div>
+   <div>
+     <Footer/>
+   </div>
 </>
   )
 }

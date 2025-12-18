@@ -11,7 +11,7 @@ function Navber() {
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1 lg:flex gap-4 lg:gap-8">
   <Link to={"/"}> <li className='cursor-pointer text-xl'>Home</li></Link>
-  <Link to={"/details:slug"}> <li className='cursor-pointer text-xl'>favourits</li></Link>
+  <Link to={"/favourite"}> <li className='cursor-pointer text-xl'>favourits</li></Link>
   <Link to={"/contact"}> <li className='cursor-pointer text-xl mr-4'>contact</li></Link>
     </ul>
   </div>

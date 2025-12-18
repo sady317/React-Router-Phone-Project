@@ -15,7 +15,7 @@ function Home() {
    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-4 space-y-4 my-10'>
      {data?.map((phone)=>(
 
-    <ProductCard phone={phone} key={phone?.status}/>
+    <ProductCard phone={phone} key={phone?.phone_name}/>
     ))}
    </div>
     </>

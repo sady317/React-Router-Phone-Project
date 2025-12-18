@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function ProductCard({phone}) {
   return (
@@ -12,9 +13,11 @@ function ProductCard({phone}) {
   <div className="card-body">
     <h2 className="card-title">{phone.brand}</h2>
     <p>{phone.phone_name}</p>
+    <Link to={`/phone/${phone.slug}`}>
     <div className="card-actions justify-end">
       <button className="btn btn-primary">Details</button>
     </div>
+    </Link>
   </div>
 </div>
     </>
