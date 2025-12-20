@@ -4,10 +4,11 @@ import { Link } from 'react-router'
 function Navber() {
   return (
     <>
-    <div className="navbar bg-base-200  shadow-sm">
+    <div className="navbar bg-base-200 flex justify-between shadow-sm">
+  <Link to={"/"}>
   <div className="flex-1">
     <a className="btn btn-ghost text-xl">Phone Store</a>
-  </div>
+  </div></Link>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1 lg:flex gap-4 lg:gap-8">
   <Link to={"/"}> <li className='cursor-pointer text-xl'>Home</li></Link>
